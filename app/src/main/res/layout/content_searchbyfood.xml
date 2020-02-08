@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_overlay"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nicks.myfoodfirst.searchbyfood"
+    tools:showIn="@layout/activity_searchbyfood">
+
+
+    <ImageView
+        android:id="@+id/appet"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        app:srcCompat="@drawable/app" />
+
+    <ImageView
+        android:id="@+id/breakfast"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/breakfast" />
+
+    <ImageView
+        android:id="@+id/coffee"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="7dp"
+        app:srcCompat="@drawable/coffee" />
+
+    <ImageView
+        android:id="@+id/fish"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/appet"
+        android:layout_below="@+id/appet"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/fish" />
+
+    <ImageView
+        android:id="@+id/drinks"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/breakfast"
+        android:layout_alignTop="@+id/fish"
+        app:srcCompat="@drawable/drinks" />
+
+    <ImageView
+        android:id="@+id/desserts"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/coffee"
+        android:layout_alignTop="@+id/drinks"
+        app:srcCompat="@drawable/dessert" />
+
+    <ImageView
+        android:id="@+id/soup"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/fish"
+        android:layout_below="@+id/fish"
+        android:layout_marginTop="7dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/soup" />
+
+    <ImageView
+        android:id="@+id/veg"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/drinks"
+        android:layout_alignTop="@+id/soup"
+        app:srcCompat="@drawable/vegetarian" />
+
+    <ImageView
+        android:id="@+id/wine"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/desserts"
+        android:layout_alignTop="@+id/veg"
+        app:srcCompat="@drawable/wine" />
+
+
+    <ImageView
+        android:id="@+id/pizza"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/veg"
+        android:layout_alignTop="@+id/meat"
+        app:srcCompat="@drawable/pizza" />
+
+    <ImageView
+        android:id="@+id/main"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/wine"
+        android:layout_alignTop="@+id/pizza"
+        app:srcCompat="@drawable/maincourse" />
+
+    <ImageView
+        android:id="@+id/meat"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/soup"
+        android:layout_below="@+id/soup"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/meatdish" />
+
+</RelativeLayout>

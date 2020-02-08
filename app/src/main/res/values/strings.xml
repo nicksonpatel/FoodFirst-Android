@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FoodFirst</string>
+
+    <string name="title_activity_home">home</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Mobile_Number">Mobile Number</string>
+    <string name="Full_name">Name</string>
+    <string name="User_name">User Name</string>
+    <string name="Email">Email ID</string>
+    <string name="Age">Age</string>
+    <string name="title_activity_search_by_food">searchByFood</string>
+    <string name="WALLET">WALLET</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_myhome">myhome</string>
+    <string name="title_activity_restaurents">restaurents</string>
+    <string name="title_activity_searchbyfood">searchbyfood</string>
+    <string name="title_activity_nearbyfood">nearbyfood</string>
+    <string name="title_activity_news">news</string>
+    <string name="title_activity_reservation">reservation</string>
+    <string name="title_activity_streetfood">streetfood</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_wallet">wallet</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_feedback">feedback</string>
+    <string name="title_activity_rest_content">rest_content</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key"><!--Enter your google maps api key --><>
+</resources>

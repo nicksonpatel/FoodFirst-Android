@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:theme="@style/AppTheme.NoActionBar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nicks.myfoodfirst.myhome"
+    tools:showIn="@layout/activity_myhome">
+
+    <ImageView
+        android:id="@+id/restaurants"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/dummy_button"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/rresturant" />
+
+    <ImageView
+        android:id="@+id/searchbyfood"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/restaurants"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/dummy_button"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/food" />
+
+    <ImageView
+        android:id="@+id/nearbyfood"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/dummy_button"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/nearbyfood" />
+
+    <ImageView
+        android:id="@+id/news"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/restaurants"
+        android:layout_below="@+id/restaurants"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/dummy_button"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/news" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/news"
+        android:layout_below="@+id/news"
+        android:layout_marginTop="13dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/dummy_button"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/reservation"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/searchbyfood"
+        android:layout_alignTop="@+id/news"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/dummy_button"
+        android:scaleType="centerCrop"
+        android:tint="@android:color/transparent"
+        app:srcCompat="@drawable/reservations" />
+
+
+    <ImageView
+        android:id="@+id/streetfood"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/nearbyfood"
+        android:layout_alignTop="@+id/reservation"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/dummy_button"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/steetfoodlogo" />
+
+
+    <ImageView
+        android:id="@+id/wallet"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/reservation"
+        android:layout_alignTop="@+id/profile"
+        app:srcCompat="@drawable/wallet" />
+
+    <ImageView
+        android:id="@+id/feedback"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/streetfood"
+        android:layout_alignTop="@+id/wallet"
+        android:contentDescription="@string/dummy_button"
+        app:srcCompat="@drawable/feedback" />
+
+
+</RelativeLayout>

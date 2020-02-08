@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/piz"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/border_orange"
+
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <ImageView
+        android:id="@+id/img_piz"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:src="@drawable/pizzazone" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/img_piz"
+        android:fontFamily="@font/nirmala_b"
+        android:text="PIZZA ZONE"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:text="Open"
+        android:id="@+id/status"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rightbutton"
+        android:padding="7dp"
+        android:text="APPROX :500 INR PR  COUPLE"
+        android:textColor="@color/md_orange_600"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/phone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/manjalpur"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black_overlay"
+        app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+    <ImageButton
+        android:id="@+id/location"
+        android:layout_width="45dp"
+        android:visibility="gone"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/phone"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/phone"
+        android:background="@color/black_overlay"
+        app:srcCompat="@drawable/ic_arrow_back_black" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/price"
+        android:layout_marginEnd="7dp"
+        android:layout_toStartOf="@+id/price"
+        app:srcCompat="@drawable/icon_veg" />
+
+    <TextView
+        android:id="@+id/manjalpur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/name"
+        android:fontFamily="@font/nirmala_b"
+        android:text="Manjalpur"
+        android:textColor="@color/md_orange_100"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/manjalpur"
+        android:background="@color/md_orange_600"
+        android:fontFamily="@font/nirmala_b"
+        android:text="M O R E"
+        android:textColor="@color/md_white_off" />
+
+
+</RelativeLayout>
