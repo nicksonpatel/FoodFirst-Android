@@ -69,8 +69,8 @@ public class myhome extends AppCompatActivity {
         streetfood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(getApplicationContext(),MapsActivity.class);
-                startActivity(i);
+                //Intent i=new Intent(getApplicationContext(),MapsActivity.class);
+                //startActivity(i);
             }
         });
         profile.setOnClickListener(new View.OnClickListener() {

@@ -10,8 +10,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.nicks.foodfirst.adpter.Subject;
-import com.example.nicks.foodfirst.adpter.SubjectAdapter2;
+import com.example.nicks.myfoodfirst.adpter.Subject;
+import com.example.nicks.myfoodfirst.adpter.SubjectAdapter2;
 
 import java.util.ArrayList;
 import java.util.List;

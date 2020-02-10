@@ -12,10 +12,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.nicks.foodfirst.Myapp;
-import com.example.nicks.foodfirst.R;
-import com.example.nicks.foodfirst.rest_content;
-import com.example.nicks.foodfirst.restaurents;
+import com.example.nicks.myfoodfirst.Myapp;
+import com.example.nicks.myfoodfirst.R;
+import com.example.nicks.myfoodfirst.rest_content;
+import com.example.nicks.myfoodfirst.restaurents;
 
 import java.util.List;
 import java.util.Map;

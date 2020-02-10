@@ -21,8 +21,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.nicks.foodfirst.adpter.Subject1;
-import com.example.nicks.foodfirst.adpter.SubjectAdapter1;
+import com.example.nicks.myfoodfirst.adpter.Subject1;
+import com.example.nicks.myfoodfirst.adpter.SubjectAdapter1;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;

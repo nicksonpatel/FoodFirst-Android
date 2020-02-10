@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.nicks.foodfirst.Myapp;
-import com.example.nicks.foodfirst.R;
+import com.example.nicks.myfoodfirst.Myapp;
+import com.example.nicks.myfoodfirst.R;
 
 import java.util.List;
 import java.util.Map;

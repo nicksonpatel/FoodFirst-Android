@@ -145,7 +145,7 @@ public class loginPage extends AppCompatActivity {
 
     private void startPhoneNumberVerification(String phoneNumber) {
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
-                "+91"+phoneNumber,        // Phone number to verify
+                "+"+phoneNumber,        // Phone number to verify
                 120,                 // Timeout duration
                 TimeUnit.SECONDS,   // Unit of timeout
                 this,               // Activity (for callback binding)

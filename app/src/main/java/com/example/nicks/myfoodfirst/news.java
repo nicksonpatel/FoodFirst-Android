@@ -10,8 +10,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.nicks.foodfirst.adpter.PlanAdapter;
-import com.example.nicks.foodfirst.adpter.plan_model;
+import com.example.nicks.myfoodfirst.adpter.PlanAdapter;
+import com.example.nicks.myfoodfirst.adpter.plan_model;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

@@ -14,8 +14,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
-import com.example.nicks.foodfirst.adpter.Subject;
-import com.example.nicks.foodfirst.adpter.SubjectAdapter;
+import com.example.nicks.myfoodfirst.adpter.Subject;
+import com.example.nicks.myfoodfirst.adpter.SubjectAdapter;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;

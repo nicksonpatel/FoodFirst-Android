@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.nicks.foodfirst.R;
+import com.example.nicks.myfoodfirst.R;
 
 import java.util.List;
 
