@@ -42,16 +42,18 @@ Enable realtime Database :
           }
         }
         
-    NOW add FoodFirst-restaurant app in the same firebase project.
-    
-    You can directly download apk form above link and install it in real device (not on emulator).
-    
-    https://drive.google.com/open?id=1ggdRQe7V4exZ1sTpB8bWs3zVcRnCAJOP
-    
+        
+  
+  NOW add FoodFirst-restaurant app in the same firebase project.
+
+  You can directly download apk form above link and install it in real device (not on emulator).
+
+  https://drive.google.com/open?id=1ggdRQe7V4exZ1sTpB8bWs3zVcRnCAJOP
+
     SIGN IN STEPS: 
-    
+
      Add mobile number with country code ("+" not needed for country code)
      click sign in , app will automatically detect OTP and take you to home screen
-    
-    
+
+
 
